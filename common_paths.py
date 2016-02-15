@@ -23,7 +23,7 @@ def recursive_assign(tree, keylist):
     recursive_assign(tree[branch], keylist[1:])
 
 
-def walk_bfs(node) -> int:
+def walk_bfs(node):
     """Iterate tree breadth-first"""
     queue = Queue()
     for child_path, child_node in node.items():
